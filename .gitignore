@@ -1,0 +1,57 @@
+# Virtual Environment
+tssci-env/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Input videos (too large for git)
+input video/
+*.mp4
+*.avi
+*.mov
+
+# Output files (generated, not needed in repo)
+tssci_output/
+*.npy
+*.gif
+
+# Keep only visualization PNG
+!tssci_output/tssci_visualization.png
+
+# MediaPipe model (too large - 29.2 MB)
+pose_landmarker_heavy.task
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+# Compressed files
+*.zip
+*.tar.gz
