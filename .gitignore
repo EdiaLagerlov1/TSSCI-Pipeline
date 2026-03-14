@@ -32,9 +32,9 @@ build/
 
 # Input videos (too large for git)
 input video/
-*.mp4
-*.avi
-*.mov
+
+# Allow sample video
+!sample_video/*.mp4
 
 # Output files (generated, not needed in repo)
 tssci_output/
